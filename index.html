@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Udemy</title>
+    <!-- Google style sheet for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- My style sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="navbar__s1">
+        <h1 class="navbar__s1__title">Udemy</h1>
+      </div>
+      <div class="navbar__s2">
+        <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+        <input type="search" placeholder="Search for anything" />
+      </div>
+      <div class="navbar__s3">
+        <p>Udemy Business</p>
+        <p>Teach on Udemy</p>
+        <!-- My learning popup -->
+        <div class="mylearning">
+          <p>My Learning</p>
+          <div class="mylearning__popup">
+            <p>You Did't Purchase Anything</p>
+            <div class="browse__popup">
+              <h3>Explore Courses</h3>
+            </div>
+          </div>
+        </div>
+        
+        <i class="fa-solid fa-cart-shopping" style="color: #000000"></i>
+        <i class="fa-solid fa-bell" style="color: #000000"></i>
+        <i class="fa-solid fa-user" style="color: #000000"></i>
+      </div>
+    </div>
+    <!-- Categories  -->
+    <div class="categories">
+      <p>Web Development</p>
+      <p>IT & Software</p>
+      <p>Machine Learning</p>
+      <p>Python</p>
+      <p>Artificial Intelligence (AI)</p>
+      <p>Personal Development</p>
+      <p>UI & UX Design</p>
+      <p>Marketing</p>
+    </div>
+    <!-- Sale-image -->
+    <div class="sale">
+      <img src="./images/sale.jpg" alt="Sale-Image" />
+      <div class="sale__image__add">
+        <h2>Udemy Flash Sale!! </h2>
+        
+        <p>Invest in yourself. Courses as low as ₹449 through tomorrow.</p>
+      </div>
+    </div>
+    <!-- Recommended -->
+    <div class="recommended">
+      <h1 class="recommended-title">Recommended for You</h1>
+      <p>Pick the best fit</p>
+      <div class="recommended-container">
+        <div class="course-card">
+          <img src="./images/c1.jpg" alt="Course Image" />
+          <h3>The complete 2024 Web Development Bootcamp</h3>
+          <p>Dr.Angela Yu, Developer and Lead Instructor</p>
+          <p>4.7 ⭐⭐⭐⭐⭐(420,753)</p>
+          <p>₹3,999.00 <del>₹9,999.00</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/c2.jpg" alt="Course Image" />
+          <h3>100 Days of code: The Complete Python Pro Bootcamp</h3>
+          <p>Dr.Angela Yu, Developer and Lead Instructor</p>
+          <p>4.7 ⭐⭐⭐⭐⭐(346,553)</p>
+          <p>₹799.00 <del>₹3,999.00</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/c3.jpg" alt="Course Image" />
+          <h3>Figma UI UX Design Essentials</h3>
+          <p>
+            Daniel Walter Scott, Adoble Certified Instructor & Adoble Certified
+            Expert
+          </p>
+          <p>4.6 ⭐⭐⭐⭐⭐ (34,994)</p>
+          <p>₹3,699.00 <del>₹8,999.00</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/c4.jpg" alt="Course Image" />
+          <h3>Artificial Intelligence A-Z 2025: Build 7 AI+LLM & Chatgpt</h3>
+          <p>Hadelin de Ponteves, Passionate AI Instructor</p>
+          <p>4.5 ⭐⭐⭐⭐⭐ (369,025)</p>
+          <p>₹3,999.00 <del>₹9,999.00</del></p>
+        </div>
+      </div>
+    </div>
+    <!-- Topics -->
+    <div class="topics">
+      <h1 class="topics-title">Topics Recommended for You</h1>
+      <div class="topics-container">
+        <p>Web Development</p>
+        <p>Javascript</p>
+        <p>CSS</p>
+        <p>Mongo DB</p>
+        <p>Azure</p>
+        <p>Docker</p>
+        <p>GitHub</p>
+        <p>React Js</p>
+        <p>Node Js</p>
+      </div>
+    </div>
+    <!-- Popular -->
+    <div class="popular">
+      <h1 class="popular__title">Most Popular</h1>
+      <p class="popular__subtitle">Pick the best fit</p>
+      <div class="popular__container">
+        <div class="course-card">
+          <img src="./images/c1.jpg" alt="Course Image" />
+          <h3>The complete 2024 Web Development Bootcamp</h3>
+          <p>Dr.Angela Yu, Developer and Lead Instructor</p>
+          <p>4.7 ⭐⭐⭐⭐⭐(420,753)</p>
+          <p>₹3,999.00 <del>₹9,999.00</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/c2.jpg" alt="Course Image" />
+          <h3>100 Days of code: The Complete Python Pro Bootcamp</h3>
+          <p>Dr.Angela Yu, Developer and Lead Instructor</p>
+          <p>4.7 ⭐⭐⭐⭐⭐(346,553)</p>
+          <p>₹799.00 <del>₹3,999.00</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/c3.jpg" alt="Course Image" />
+          <h3>Figma UI UX Design Essentials</h3>
+          <p>
+            Daniel Walter Scott, Adoble Certified Instructor & Adoble Certified
+            Expert
+          </p>
+          <p>4.6 ⭐⭐⭐⭐⭐ (34,994)</p>
+          <p>₹3,699.00 <del>₹8,999.00</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/c4.jpg" alt="Course Image" />
+          <h3>Artificial Intelligence A-Z 2025: Build 7 AI+LLM & Chatgpt</h3>
+          <p>Hadelin de Ponteves, Passionate AI Instructor</p>
+          <p>4.5 ⭐⭐⭐⭐⭐ (369,025)</p>
+          <p>₹3,999.00 <del>₹9,999.00</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/c1.jpg" alt="Course Image" />
+          <h3>The complete 2024 Web Development Bootcamp</h3>
+          <p>Dr.Angela Yu, Developer and Lead Instructor</p>
+          <p>4.7 ⭐⭐⭐⭐⭐(420,753)</p>
+          <p>₹3,999.00 <del>₹9,999.00</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/c2.jpg" alt="Course Image" />
+          <h3>100 Days of code: The Complete Python Pro Bootcamp</h3>
+          <p>Dr.Angela Yu, Developer and Lead Instructor</p>
+          <p>4.7 ⭐⭐⭐⭐⭐(346,553)</p>
+          <p>₹799.00 <del>₹3,999.00</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/c3.jpg" alt="Course Image" />
+          <h3>Figma UI UX Design Essentials</h3>
+          <p>
+            Daniel Walter Scott, Adoble Certified Instructor & Adoble Certified
+            Expert
+          </p>
+          <p>4.6 ⭐⭐⭐⭐⭐ (34,994)</p>
+          <p>₹3,699.00 <del>₹8,999.00</del></p>
+        </div>
+        <div class="course-card">
+          <img src="./images/c4.jpg" alt="Course Image" />
+          <h3>Artificial Intelligence A-Z 2025: Build 7 AI+LLM & Chatgpt</h3>
+          <p>Hadelin de Ponteves, Passionate AI Instructor</p>
+          <p>4.5 ⭐⭐⭐⭐⭐ (369,025)</p>
+          <p>₹3,999.00 <del>₹9,999.00</del></p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer__one">
+        <div class="footer__one__s1">
+          <h3>About</h3>
+          <p>About us</p>
+          <p>Careers</p>
+          <p>Contact us</p>
+          <p>Blog</p>
+          <p>Investors</p>
+        </div>
+        <div class="footer__one__s2">
+          <h3>Discovery Udemy</h3>
+          <p>Get the app</p>
+          <p>Teach ob Udemy</p>
+          <p>Plans and Pricing</p>
+          <p>Affilate</p>
+          <p>Help and Support</p>
+        </div>
+        <div class="footer__one__s3">
+          <h3>Udemy for Business</h3>
+          <p>Udemy Businesss</p>
+        </div>
+        <div class="footer__one__s4">
+          <h3>Legal & Accessibility</h3>
+          <p>Accessibility statement</p>
+          <p>Privacy policy</p>
+          <p>Sitemap</p>
+          <p>Terms</p>
+        </div>
+      </div>
+      <div class="footer__two">
+        <h1>Udemy</h1>
+        <p>&copy; 2025 Udemy, Inc</p>
+      </div>
+    </div>
+  </body>
+</html>
