@@ -183,7 +183,7 @@ body{
 }
 .footer__one{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10px;
     padding: 20px;    
 }
@@ -205,7 +205,7 @@ body{
     }
     
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .course-card{
         flex-basis: 40%;
         margin: 5px;      
@@ -231,8 +231,12 @@ body{
     }
     .footer__one{
         font-size: 8px;
+        justify-content: space-between;
     }
     .recommended-title{
         margin-top: 10px;
+    }
+    .navbar{
+        padding: 10px;
     }
 }
