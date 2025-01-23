@@ -231,7 +231,7 @@ body{
     }
     .footer__one{
         font-size: 8px;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .recommended-title{
         margin-top: 10px;
