@@ -183,7 +183,7 @@ body{
 }
 .footer__one{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 10px;
     padding: 20px;    
 }
@@ -207,7 +207,8 @@ body{
 }
 @media screen and (max-width:600px) {
     .course-card{
-        flex-basis: 40%;        
+        flex-basis: 40%;
+        margin: 5px;      
     }
     .navbar__s4:hover{
         background-color:whitesmoke;
@@ -230,5 +231,8 @@ body{
     }
     .footer__one{
         font-size: 8px;
+    }
+    .topics{
+        margin-top: 10px;
     }
 }
