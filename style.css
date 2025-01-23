@@ -47,6 +47,10 @@ body{
 }
 .navbar__s4{
     display: none;
+    background-color: #A435F0;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 100%;
 }
 /* My learning popup */
 .mylearning{
@@ -138,7 +142,7 @@ body{
 .course-card{
     flex-grow: 1;
     flex-basis: 20%;
-    padding-top: 20px;
+    padding-top: 10px;
     margin: 5px;
 }
 .course-card p{
@@ -149,7 +153,7 @@ body{
     width: 100%;    
 }
 .topics{
-    padding: 10px;
+    margin: 10px;
 }
 .topics-container{
     display: flex;
@@ -161,31 +165,27 @@ body{
     padding: 10px;
     border: solid gray 1px;
     flex-grow: 1;
-    flex-basis: 25%;    
+    flex-basis: 24%;  
 }
 .popular{
-    padding: 10px;
+    margin: 10px;
 }
 .popular__container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 10px;
+    justify-content: space-around;    
     
 }
 .footer{
     background-color: black;
     color: white;
     margin-top: 20px;
-    
-
 }
 .footer__one{
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
-    padding: 20px;
-    
+    padding: 20px;    
 }
 .footer__two{
     display: flex;
@@ -207,7 +207,12 @@ body{
 }
 @media screen and (max-width:600px) {
     .course-card{
-        flex-basis: 40%;
+        flex-basis: 40%;        
+    }
+    .navbar__s4:hover{
+        background-color:whitesmoke;
+        border: solid #A435F0 1px;
+        transition-duration: 1s;
     }
     .categories{
         display: none;
@@ -217,5 +222,13 @@ body{
     }
     .navbar__s4{
         display: block;
+    }
+    .sale img{
+        width: 100%;    
+        position: relative;
+        height: fit-content;
+    }
+    .footer__one{
+        font-size: 8px;
     }
 }
